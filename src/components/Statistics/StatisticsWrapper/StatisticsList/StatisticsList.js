@@ -10,7 +10,10 @@ export const StatisticsList = ({ items }) => {
   return (
     <StatisticsListStyle>
       {items.map(item => (
-        <StatisticsItemStyle key={item.id} bkgColor={getRandomHexColor()}>
+        <StatisticsItemStyle
+          key={item.id}
+          style={{ backgroundColor: getRandomHexColor() }}
+        >
           <StatisticsCard cardDates={item} />
         </StatisticsItemStyle>
       ))}

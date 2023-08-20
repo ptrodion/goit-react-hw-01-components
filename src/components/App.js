@@ -3,6 +3,7 @@ import { Profile } from './Profile/Profile';
 import { GlobalStyle } from './GlobalStyle';
 import { Layout } from './Layout';
 import { Statistics } from './Statistics/Statistics';
+import { Friends } from './Friends/Friends';
 
 export const App = () => {
   return (
@@ -13,7 +14,9 @@ export const App = () => {
       <Section title="Statistics">
         <Statistics />
       </Section>
-      <Section title="FriendList"></Section>
+      <Section title="FriendList">
+        <Friends />
+      </Section>
       <Section title="Transaction history"></Section>
       <GlobalStyle />
     </Layout>
