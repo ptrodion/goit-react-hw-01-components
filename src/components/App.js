@@ -4,6 +4,7 @@ import { GlobalStyle } from './GlobalStyle';
 import { Layout } from './Layout';
 import { Statistics } from './Statistics/Statistics';
 import { Friends } from './Friends/Friends';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
@@ -17,7 +18,9 @@ export const App = () => {
       <Section title="FriendList">
         <Friends />
       </Section>
-      <Section title="Transaction history"></Section>
+      <Section title="Transaction history">
+        <TransactionHistory />
+      </Section>
       <GlobalStyle />
     </Layout>
   );

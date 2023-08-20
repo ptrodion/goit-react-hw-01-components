@@ -5,6 +5,12 @@ export const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &:not(:first-child) {
+    border-top: 2px dashed #000;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
 `;
 
 export const SectionText = styled.p`

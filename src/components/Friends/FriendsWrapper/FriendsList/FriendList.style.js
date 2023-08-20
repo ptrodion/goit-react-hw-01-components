@@ -12,7 +12,7 @@ export const FriendsItemStyle = styled.li`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  // gap: ${props => props.theme.spacing(11)};
+  // gap: ${props => props.theme.spacing(2)};
 
   border: 1px solid #ccc;
   border-radius: 8px;

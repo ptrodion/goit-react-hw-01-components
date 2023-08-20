@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+     letter-spacing: 1.5px; 
   }
 
 h1,
