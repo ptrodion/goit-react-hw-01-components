@@ -7,7 +7,6 @@ export const StatsUserList = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  // gap: ${props => props.theme.spacing(8)};
   border-top: 1px solid #00000047;
 `;
 
